@@ -19,10 +19,15 @@ app.get('/',(req,res)=>{
   res.send("Welcome to the root path")
 })
 
+
 const corsOptions = {
-  origin: ["http://localhost:5173"],
+  origin: [
+    "http://localhost:5173", 
+    "https://portal-job-code.vercel.app"
+  ],
   credentials: true,
 };
+
 
 app.use(cors(corsOptions));
 
