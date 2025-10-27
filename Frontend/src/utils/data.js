@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5011";
+const BASE_URL = "https://portal-job-code-2.onrender.com";
 
 export const USER_API_ENDPOINT = `${BASE_URL}/api/user`;
 export const JOB_API_ENDPOINT = `${BASE_URL}/api/job`;
